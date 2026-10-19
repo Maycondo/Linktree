@@ -1,0 +1,164 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+.ModeLight {
+  --background-linktree: #e0e0e0;
+  --text-linktree: #1b1b1b;
+  --icones-midias: #1b1b1b;
+  --background-link: #202020;
+  --text-link: #e0e0e0;
+}
+
+.ModeDark {
+  --background-linktree: #1b1b1b;
+  --icones-midias: #f1f1f1;
+  --text-linktree: #e0e0e0;
+  --background-link: #e0e0e0;
+  --text-link: #1b1b1b;
+}
+
+.panel-main-and-linktree {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--background-linktree);
+  color: var(--text-linktree);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.content-linktree-main {
+  width: 100%;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.Mode_Button {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  z-index: 10;
+}
+
+.Mode_Button button {
+  border: none;
+  background: transparent;
+  color: var(--midias-icons-social-string-nav--);
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
+}
+
+.Mode_Button button svg {
+  transition: transform 0.3s ease;
+}
+
+.Mode_Button button:hover svg {
+  transform: rotate(20deg);
+}
+
+#image-prossion {
+  width: 110px;
+  height: 11  0px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+#name-user-instagram,
+#user-name-text,
+#text-profession {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+#name-user-instagram {
+  font-size: 0.8rem;
+}
+
+#user-name-text,
+#text-profession {
+  padding: 0.2rem;
+  margin: 0.2rem;
+}
+
+.content-image-texts {
+  width: 100%;
+  margin: 0.8rem;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.midias-icons-social-string {
+  width: 100%;
+  max-width: 500px;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 1.2rem;
+}
+
+.midias-icons-social-string a {
+  min-height: 4rem;
+  width: 100%;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: var(--background-link);
+  color: var(--text-link);
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.midias-icons-social-string a:hover {
+  transform: translateY(-2px);
+  opacity: 0.9;
+}
+
+.icons-midias {
+  max-width: 500px;
+  margin: 0.8rem;
+  padding: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.icons-midias a {
+  min-height: 4rem;
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 10px;
+  color: var(--icones-midias);
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: bold;
+  font-size: 1.2rem;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
