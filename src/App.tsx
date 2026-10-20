@@ -28,7 +28,7 @@ const IconSocial = [
   },
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/maycon-douglas-b97786306/",
+    href: "https://www.linkedin.com/in/maycon-douglas-b97786306/?isSelfProfile=true",
     icon: TbBrandLinkedinFilled,
   },
   {
