@@ -25,7 +25,7 @@ const links = [
     icon: FaLinkedinIn,
   },
   { name: "Currículo", href: "https://drive.google.com/file/u/1/d/1mcFLNN-5YQ8NDK09nTY7xV8lXwlya2uy/view?usp=drive_open", icon: FaFileDownload },
-  { name: "Contato", href: "mailto:seuemail@exemplo.com", icon: FaEnvelope },
+  { name: "Contato", href: "mailto:maycondouglasniculau@gmail.com", icon: FaEnvelope },
 ];
 
 const socials = [
