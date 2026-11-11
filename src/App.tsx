@@ -54,7 +54,7 @@ const PanelLinktree = () => {
           <span className="lt-name-2">Douglas</span>
         </h1>
         <p className="lt-sub">
-          Transformo ideias em soluções digitais com React, Node.js e Python.
+          Transformo ideias em soluções digitais com React, Node.js, Python e Java.
         </p>
       </motion.section>
 
